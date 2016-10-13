@@ -1,0 +1,12 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CI_CD_Build">
+    <Exec Command="echo Hello from MSBuild" ></Exec>
+  </Target>
+  <Target Name="EchoDate">
+    <Exec Command="echo %25date%"></Exec>
+  </Target>
+
+<ItemGroup>
+  
+</ItemGroup>
+</Project>
